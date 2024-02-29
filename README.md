@@ -16,6 +16,23 @@ Welcome to the **DCLite** – an open-source tool designed to catalog and view f
 
 [Instructions on how to use the tool, including commands or examples]
 
+## Development
+
+### Initialize
+```
+yarn install
+```
+
+### Build
+```
+yarn build
+```
+
+### Run
+```
+npx dcl
+```
+
 ## License
 
 **DCLite** is available under MIT License. This means the tool is free for both personal and commercial use. We welcome donations, but it’s entirely optional and only if you wish to support the project further.
