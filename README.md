@@ -1,54 +1,73 @@
-# **DCLite**
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
 
-Welcome to the **DCLite** – an open-source tool designed to catalog and view files stored on various storage media such as tapes, BD-Rs, and offline hard drives. At its core, **DCLite** utilizes SQLite, making it a robust yet lightweight solution for managing offline data inventories.
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-## Features
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-- **Cataloging:** Effortlessly keep track of what files are stored on your offline storage devices.
-- **Cross-Platform:** Designed to work on multiple platforms.
-- **SQLite Backend:** For fast and reliable storage of your catalog data.
+## Description
 
-## Getting Started
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-[Instructions on how to install or setup]
+## Installation
 
-## Usage
-
-[Instructions on how to use the tool, including commands or examples]
-
-## Development
-
-### Initialize
+```bash
+$ yarn install
 ```
-yarn install
+
+## Running the app
+
+```bash
+# development
+$ yarn run start
+
+# watch mode
+$ yarn run start:dev
+
+# production mode
+$ yarn run start:prod
 ```
 
-### Build
-```
-yarn build
+## Test
+
+```bash
+# unit tests
+$ yarn run test
+
+# e2e tests
+$ yarn run test:e2e
+
+# test coverage
+$ yarn run test:cov
 ```
 
-### Run
-```
-npx dcl
-```
+## Support
+
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
-**DCLite** is available under MIT License. This means the tool is free for both personal and commercial use. We welcome donations, but it’s entirely optional and only if you wish to support the project further.
-
-## Contributing
-
-We welcome contributions from everyone. If you have made improvements or modifications, we encourage you to share them back with the community. Our aim is for **DCLite** to be as useful as possible for everyone, so we ask that you make changes with this in mind rather than for personal use only. 
-
-**Please note:** As we are currently in the alpha stage, we are not accepting bug reports through GitHub issues just yet. But stay tuned, as we will be open for feedback as soon as we move past this phase.
-
-## Donations
-
-While **DCLite** is a free tool and we’re committed to keeping it that way – commercial use included – we do welcome donations. Any contributions received will be used to support the ongoing development and maintenance of the project.
-
-[Donation details]
-
-For more information on how to contribute or make a donation, please see [Contributing Guide or Contact Information].
-
-Thank you for your interest in **DCLite**. We hope it serves your needs and contributes to your projects in a meaningful way.
+Nest is [MIT licensed](LICENSE).
