@@ -35,14 +35,16 @@ $ yarn install
 ## Running the app
 
 ```bash
-# development
-$ yarn run start
+# buikd
+$ yarn build
 
-# watch mode
-$ yarn run start:dev
+# create link
+$ yarn link
 
-# production mode
-$ yarn run start:prod
+# fix permission && run app
+$ chmod 755 dist/main.js && npx dcl
+# or
+$ yarn start
 ```
 
 ## Test

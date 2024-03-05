@@ -12,6 +12,7 @@
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "start": "chmod 755 dist/main.js && npx dcl",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
